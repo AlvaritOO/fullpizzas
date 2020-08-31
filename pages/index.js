@@ -1,65 +1,89 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>FullPizza - Rancagua</title>
+        <link />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Bienvenidos a{" "}
+          <a href="https://www.ubereats.com/rancagua/food-delivery/fullpizzas/5CmH35u_RaWJ0ZEidaBRfg?pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMlJhbmNhZ3VhJTIyJTJDJTIycmVmZXJlbmNlJTIyJTNBJTIyQ2hJSjB4UHZ2V2REWTVZUjkxU3Rab1A4YzlrJTIyJTJDJTIycmVmZXJlbmNlVHlwZSUyMiUzQSUyMmdvb2dsZV9wbGFjZXMlMjIlMkMlMjJsYXRpdHVkZSUyMiUzQS0zNC4xNzAxMzI0MDAwMDAwMSUyQyUyMmxvbmdpdHVkZSUyMiUzQS03MC43NDA2MjU5JTdE">
+            FullPizzas!
+          </a>
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <p className={styles.description}>La casa de la Super Goloza</p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="" className={styles.card}>
+            <h3>Rancagua BBQ &rarr;</h3>
+            <p>Queso, orégano, pepperoni, pollo, tocino y salsa barbacoa.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="" className={styles.card}>
+            <h3>Americana &rarr;</h3>
+            <p>Queso, orégano, tocino, pollo, salame y choricillo.</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="" className={styles.card}>
+            <h3>Cuatro Carnes &rarr;</h3>
+            <p>Queso, orégano, pepperoni, lomo, salame y choricillo</p>
           </a>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
+          <a href="" className={styles.card}>
+            <h3>Hawaiana &rarr;</h3>
+            <p>Extra queso mozzarella, gauda, orégano, piña y jamón.</p>
+          </a>
+
+          <a href="" className={styles.card}>
+            <h3>Cuatro Queso &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Salsa de tomate, orégano, queso mozzarella, gauda, edam y queso
+              azul.
+            </p>
+          </a>
+
+          <a href="" className={styles.card}>
+            <h3>Italiana &rarr;</h3>
+            <p>Queso, orégano, aceitunas negras, champiñón y salame.</p>
+          </a>
+
+          <a href="" className={styles.card}>
+            <h3>Napolitana &rarr;</h3>
+            <p>Extra queso mozzarella, gauda, orégano, tomate y jamón.</p>
+          </a>
+
+          <a href="" className={styles.card}>
+            <h3>Doble Pepperoni &rarr;</h3>
+            <p>Queso mozzarella, gauda, orégano y doble pepperoni.</p>
+          </a>
+
+          <a href="" className={styles.card}>
+            <h3>Vegetariana &rarr;</h3>
+            <p>
+              Queso, orégano, pimiento verde, tomate, aceitunas negras y
+              champiñón.
+            </p>
+          </a>
+
+          <a href="" className={styles.card}>
+            <h3>Española &rarr;</h3>
+            <p>
+              Queso, orégano, pimiento verde, tomate, lomito de cerdo y
+              choricillo
             </p>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+        <a className={styles.logo}>Powered by FullPizzas - Rancagua</a>
       </footer>
     </div>
-  )
+  );
 }
