@@ -14,8 +14,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>FullPizza - Rancagua</title>
-        <link />
+        <title>FullPizzas - Pizzería a domicilio en Rancagua</title>
       </Head>
 
       <main className={styles.main}>
@@ -25,19 +24,16 @@ export default function Home() {
             FullPizzas!
           </a>
         </h1>
-
-        <p className={styles.description}>La casa de la Super Goloza</p>
-        <a
-          className={styles.button}
-          href="https://wa.me/message/CTYZQI5JZWJTO1"
-        >
-          Envia un WhatsApp &rarr;
-        </a>
-
+        <p className={styles.description}>La casa de la Super Goloza</p>{" "}
+        <div className={styles.button}>
+          <a href="https://wa.me/message/CTYZQI5JZWJTO1">
+            <h3>Envia un WhatsApp &rarr;</h3>
+          </a>
+        </div>
         <div className={styles.grid}>
           <a href="" className={styles.card}>
             <img src={RancaguaBBQ} alt="RancaguaBBQ" className={styles.img} />
-            <h3>Rancagua BBQ </h3>
+            <h3>Rancagua BBQ</h3>
             <p>Queso, orégano, pepperoni, pollo, tocino y salsa barbacoa.</p>
           </a>
 
@@ -107,11 +103,13 @@ export default function Home() {
               choricillo
             </p>
           </a>
+          <a className={styles.card}>
+            Beta Version - Sitio web en construccion - FullPizzas - Rancagua
+          </a>
         </div>
       </main>
-
       <footer className={styles.footer}>
-        <a>Beta - Sitio web de FullPizzas - Rancagua</a>
+        <h2>(72) 248 9729 / +56 9 4855 0557</h2>
       </footer>
     </div>
   );
