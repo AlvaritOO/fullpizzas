@@ -57,7 +57,7 @@ export default function Home() {
 
           <a href="" className={styles.card}>
             <img src={CuatroQueso} alt="CuatroQueso" className={styles.img} />
-            <h3>Cuatro Queso</h3>
+            <h3>Cuatro Quesos</h3>
             <p>
               Salsa de tomate, orégano, queso mozzarella, gauda, edam y queso
               azul.
@@ -109,7 +109,7 @@ export default function Home() {
         </div>
       </main>
       <footer className={styles.footer}>
-        <h2>(72) 248 9729 / +56 9 4855 0557</h2>
+        <h2>+56 9 4855 0557</h2>
       </footer>
     </div>
   );
